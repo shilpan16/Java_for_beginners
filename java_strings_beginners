@@ -95,5 +95,57 @@ Enter a string: Hello World
 Number of vowels: 3
 
 
+4.Find the Length of a String:
+------------------------------
+Write a program to find the length of a string without using the built-in length() method.
+code:
+import java.util.Scanner;
+
+public class StringLength {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+
+        int length = findLength(input);
+        System.out.println("Length of the string: " + length);
+
+        scanner.close();
+    }
+
+    public static int findLength(String str) {
+        int count = 0;
+
+        // Loop through each character in the string
+        for (int i = 0; i < str.toCharArray().length; i++) {
+            count++;  // Increase count for every character
+        }
+
+        return count;
+    }
+}
+Output:
+Enter a string: Hello
+Length of the string: 5
+
+5.String Concatenation:
+-----------------------
+Write a program to concatenate two strings without using the + operator.
+code:
+public class StringConcatenation {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = " World";
+
+        // Using the concat() method to join the two strings
+        String result = str1.concat(str2);
+
+        System.out.println("Concatenated String: " + result);
+    }
+}
+Output:
+Concatenated String: Hello World
+
+
 
   
