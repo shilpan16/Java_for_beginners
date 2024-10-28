@@ -1,0 +1,17 @@
+Here’s a simplified version of Java list problems for beginners with clear explanations and code.
+1. Create and Print a List
+Problem: Create a list of numbers and print the elements.
+import java.util.*;
+
+public class CreateAndPrintList {
+    public static void main(String[] args) {
+        List<Integer> numbers = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+
+        System.out.println("List: " + numbers);
+    }
+}
+Output:
+List: [1, 2, 3]
