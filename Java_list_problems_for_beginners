@@ -1,6 +1,11 @@
-Here’s a simplified version of Java list problems for beginners with clear explanations and code.
-1. Create and Print a List
-Problem: Create a list of numbers and print the elements.
+Here’s a simplified version of **Java list problems for beginners** with clear explanations and code.  
+
+---
+
+### 1. **Create and Print a List**  
+**Problem:** Create a list of numbers and print the elements.
+
+```java
 import java.util.*;
 
 public class CreateAndPrintList {
@@ -13,5 +18,203 @@ public class CreateAndPrintList {
         System.out.println("List: " + numbers);
     }
 }
-Output:
-List: [1, 2, 3]
+```
+**Output:**  
+`List: [1, 2, 3]`
+
+---
+
+### 2. **Add Elements to a List**  
+**Problem:** Add elements to a list at specific positions.
+
+```java
+import java.util.*;
+
+public class AddElements {
+    public static void main(String[] args) {
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add(1, "Mango");  // Add at index 1
+
+        System.out.println("Fruits: " + fruits);
+    }
+}
+```
+**Output:**  
+`Fruits: [Apple, Mango, Banana]`
+
+---
+
+### 3. **Access Elements from a List**  
+**Problem:** Retrieve an element by its index.
+
+```java
+import java.util.*;
+
+public class AccessElement {
+    public static void main(String[] args) {
+        List<String> colors = Arrays.asList("Red", "Blue", "Green");
+        String color = colors.get(1);  // Get element at index 1
+
+        System.out.println("Color at index 1: " + color);
+    }
+}
+```
+**Output:**  
+`Color at index 1: Blue`
+
+---
+
+### 4. **Remove an Element from a List**  
+**Problem:** Remove an element by its index or value.
+
+```java
+import java.util.*;
+
+public class RemoveElement {
+    public static void main(String[] args) {
+        List<String> animals = new ArrayList<>(Arrays.asList("Cat", "Dog", "Elephant"));
+        animals.remove("Dog");  // Remove by value
+        System.out.println("After removal: " + animals);
+    }
+}
+```
+**Output:**  
+`After removal: [Cat, Elephant]`
+
+---
+
+### 5. **Check if a List Contains an Element**  
+**Problem:** Check if a specific element exists in the list.
+
+```java
+import java.util.*;
+
+public class CheckContains {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
+        if (numbers.contains(3)) {
+            System.out.println("The list contains 3.");
+        } else {
+            System.out.println("The list does not contain 3.");
+        }
+    }
+}
+```
+**Output:**  
+`The list contains 3.`
+
+---
+
+### 6. **Iterate over a List with `for` Loop**  
+**Problem:** Print all elements in a list using a `for` loop.
+
+```java
+import java.util.*;
+
+public class IterateList {
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
+        
+        for (String name : names) {
+            System.out.println(name);
+        }
+    }
+}
+```
+**Output:**  
+```
+Alice  
+Bob  
+Charlie
+```
+
+---
+
+### 7. **Find the Size of a List**  
+**Problem:** Find how many elements are in the list.
+
+```java
+import java.util.*;
+
+public class ListSize {
+    public static void main(String[] args) {
+        List<String> countries = Arrays.asList("India", "USA", "UK");
+        System.out.println("Size of the list: " + countries.size());
+    }
+}
+```
+**Output:**  
+`Size of the list: 3`
+
+---
+
+### 8. **Clear All Elements from a List**  
+**Problem:** Remove all elements from a list.
+
+```java
+import java.util.*;
+
+public class ClearList {
+    public static void main(String[] args) {
+        List<String> hobbies = new ArrayList<>(Arrays.asList("Reading", "Gaming", "Cooking"));
+        hobbies.clear();
+        System.out.println("List after clearing: " + hobbies);
+    }
+}
+```
+**Output:**  
+`List after clearing: []`
+
+---
+
+### 9. **Copy One List into Another**  
+**Problem:** Create a copy of one list.
+
+```java
+import java.util.*;
+
+public class CopyList {
+    public static void main(String[] args) {
+        List<Integer> original = Arrays.asList(1, 2, 3);
+        List<Integer> copy = new ArrayList<>(original);
+
+        System.out.println("Original: " + original);
+        System.out.println("Copy: " + copy);
+    }
+}
+```
+**Output:**  
+```
+Original: [1, 2, 3]  
+Copy: [1, 2, 3]
+```
+
+---
+
+### 10. **Find the Index of a Value**  
+**Problem:** Find where a specific element is located in the list.
+
+```java
+import java.util.*;
+
+public class FindIndex {
+    public static void main(String[] args) {
+        List<String> languages = Arrays.asList("Java", "Python", "C++");
+        int index = languages.indexOf("Python");
+
+        if (index != -1) {
+            System.out.println("Python is at index: " + index);
+        } else {
+            System.out.println("Python is not in the list.");
+        }
+    }
+}
+```
+**Output:**  
+`Python is at index: 1`
+
+---
+
+These are beginner-friendly problems and solutions related to lists in Java. Let me know if you need further help or more examples!
