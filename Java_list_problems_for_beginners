@@ -2,8 +2,8 @@ Here’s a simplified version of **Java list problems for beginners** with clear
 
 ---
 
-### 1. **Create and Print a List**  
-**Problem:** Create a list of numbers and print the elements.
+ 1.Create and Print a List
+Problem: Create a list of numbers and print the elements.
 
 ```java
 import java.util.*;
@@ -19,13 +19,13 @@ public class CreateAndPrintList {
     }
 }
 ```
-**Output:**  
-`List: [1, 2, 3]`
+Output:  
+List: [1, 2, 3]
 
 ---
 
-### 2. **Add Elements to a List**  
-**Problem:** Add elements to a list at specific positions.
+2. Add Elements to a List  
+Problem: Add elements to a list at specific positions.
 
 ```java
 import java.util.*;
@@ -41,13 +41,13 @@ public class AddElements {
     }
 }
 ```
-**Output:**  
-`Fruits: [Apple, Mango, Banana]`
+Output: 
+Fruits: [Apple, Mango, Banana]
 
 ---
 
-### 3. **Access Elements from a List**  
-**Problem:** Retrieve an element by its index.
+3.Access Elements from a List
+Problem: Retrieve an element by its index.
 
 ```java
 import java.util.*;
@@ -61,13 +61,13 @@ public class AccessElement {
     }
 }
 ```
-**Output:**  
-`Color at index 1: Blue`
+Output:  
+Color at index 1: Blue
 
 ---
 
-### 4. **Remove an Element from a List**  
-**Problem:** Remove an element by its index or value.
+4. Remove an Element from a List  
+Problem: Remove an element by its index or value.
 
 ```java
 import java.util.*;
@@ -80,13 +80,13 @@ public class RemoveElement {
     }
 }
 ```
-**Output:**  
-`After removal: [Cat, Elephant]`
+Output:  
+After removal: [Cat, Elephant]
 
 ---
 
-### 5. **Check if a List Contains an Element**  
-**Problem:** Check if a specific element exists in the list.
+5. Check if a List Contains an Element  
+Problem: Check if a specific element exists in the list.
 
 ```java
 import java.util.*;
@@ -102,13 +102,13 @@ public class CheckContains {
     }
 }
 ```
-**Output:**  
-`The list contains 3.`
+Output:  
+The list contains 3.
 
 ---
 
-### 6. **Iterate over a List with `for` Loop**  
-**Problem:** Print all elements in a list using a `for` loop.
+6. Iterate over a List with `for` Loop 
+Problem: Print all elements in a list using a `for` loop.
 
 ```java
 import java.util.*;
@@ -123,7 +123,7 @@ public class IterateList {
     }
 }
 ```
-**Output:**  
+Output: 
 ```
 Alice  
 Bob  
@@ -132,8 +132,8 @@ Charlie
 
 ---
 
-### 7. **Find the Size of a List**  
-**Problem:** Find how many elements are in the list.
+7. Find the Size of a List
+Problem:Find how many elements are in the list.
 
 ```java
 import java.util.*;
@@ -145,13 +145,13 @@ public class ListSize {
     }
 }
 ```
-**Output:**  
-`Size of the list: 3`
+Output:
+Size of the list: 3
 
 ---
 
-### 8. **Clear All Elements from a List**  
-**Problem:** Remove all elements from a list.
+8. Clear All Elements from a List 
+Problem: Remove all elements from a list.
 
 ```java
 import java.util.*;
@@ -164,13 +164,13 @@ public class ClearList {
     }
 }
 ```
-**Output:**  
-`List after clearing: []`
+Output: 
+List after clearing: []
 
 ---
 
-### 9. **Copy One List into Another**  
-**Problem:** Create a copy of one list.
+9. Copy One List into Another 
+Problem: Create a copy of one list.
 
 ```java
 import java.util.*;
@@ -185,7 +185,7 @@ public class CopyList {
     }
 }
 ```
-**Output:**  
+Output: 
 ```
 Original: [1, 2, 3]  
 Copy: [1, 2, 3]
@@ -193,8 +193,8 @@ Copy: [1, 2, 3]
 
 ---
 
-### 10. **Find the Index of a Value**  
-**Problem:** Find where a specific element is located in the list.
+10. Find the Index of a Value  
+Problem:Find where a specific element is located in the list.
 
 ```java
 import java.util.*;
@@ -212,8 +212,8 @@ public class FindIndex {
     }
 }
 ```
-**Output:**  
-`Python is at index: 1`
+Output: 
+Python is at index: 1
 
 ---
 
