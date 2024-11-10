@@ -24,7 +24,7 @@ List: [1, 2, 3]
 
 ---
 
-2. Add Elements to a List  
+2. Add Elements to a List: 
 Problem: Add elements to a list at specific positions.
 
 ```java
